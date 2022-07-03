@@ -7,6 +7,6 @@ tasks:
       echo 'export PATH="$HOME/.tfenv/bin:$PATH"' >> ~/.bash_profile
       source ~/.bash_profile
 
-  - name: install terraform
-    init: |
-      tfenv install 1.2.3
+#  - name: install terraform
+#    init: |
+#      tfenv install 1.2.3
