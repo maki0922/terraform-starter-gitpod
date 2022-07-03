@@ -6,7 +6,5 @@ tasks:
       git --git-dir=$HOME/.tfenv/.git --work-tree=$HOME/.tfenv pull
       echo 'export PATH="$HOME/.tfenv/bin:$PATH"' >> ~/.bash_profile
       source ~/.bash_profile
-
-#  - name: install terraform
-#    init: |
-#      tfenv install 1.2.3
+      tfenv install 1.2.3
+      terraform init
