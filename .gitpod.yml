@@ -4,3 +4,6 @@ tasks:
     init: |
       git clone https://github.com/tfutils/tfenv.git ~/.tfenv
       git --git-dir=$HOME/.tfenv/.git --work-tree=$HOME/.tfenv pull
+      echo 'export PATH="$HOME/.tfenv/bin:$PATH"' >> ~/.bash_profile
+      source ~/.bash_profile
+      
