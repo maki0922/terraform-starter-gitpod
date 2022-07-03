@@ -1,0 +1,6 @@
+# install tfenv
+tasks:
+  - name: install tfenv
+    init: |
+      git clone https://github.com/tfutils/tfenv.git ~/.tfenv
+      git --git-dir=$HOME/.tfenv/.git --work-tree=$HOME/.tfenv pull
